@@ -101,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel button:hover,
@@ -285,7 +285,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.3em;
 }
 
 .navbar {
@@ -296,7 +296,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -326,7 +326,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -652,7 +652,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -660,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 2.3em;
 }
 
 .hero-bloc-text-sub {
@@ -678,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -693,10 +692,10 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -706,15 +705,15 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.6em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #1d1d1d;
 }
 
 .med-width-whitespace {
@@ -724,11 +723,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -737,11 +736,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-height: 310px;
 }
 
 .portfolio-row {
@@ -776,12 +776,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #404040;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1030,8 +1030,29 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media all and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+}
+.rowForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2Footer {
+    color: #404040;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+}
+.tc-orange {
+    color: #F3976C;
 }
